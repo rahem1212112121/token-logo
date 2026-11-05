@@ -4,9 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Tether USD (USDT) - Token Information</title>
-  <meta name="description" content="Technical information about the Tether USD (USDT) token deployed on BNB Smart Chain.">
+
+  <meta name="description" content="Technical information and contact details for the BEP-20 token deployed on BNB Smart Chain.">
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       padding: 40px 16px;
@@ -14,6 +21,7 @@
       color: #263238;
       font-family: Arial, sans-serif;
     }
+
     .container {
       max-width: 680px;
       margin: auto;
@@ -22,24 +30,44 @@
       border-radius: 14px;
       box-shadow: 0 4px 20px #00000010;
     }
+
     .logo {
       width: 80px;
       height: 80px;
       object-fit: contain;
     }
-    h1 { margin-bottom: 8px; }
-    .symbol { color: #168b70; font-weight: bold; }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    .symbol {
+      color: #168b70;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
     .item {
       padding: 14px 0;
       border-bottom: 1px solid #e8eeee;
       overflow-wrap: anywhere;
     }
+
     .label {
       color: #667;
       font-size: 13px;
       margin-bottom: 7px;
     }
-    a { color: #087f68; }
+
+    a {
+      color: #087f68;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .notice {
       margin-top: 24px;
       padding: 14px;
@@ -48,15 +76,28 @@
       font-size: 13px;
       line-height: 1.7;
     }
+
+    footer {
+      margin-top: 25px;
+      text-align: center;
+      color: #888;
+      font-size: 12px;
+    }
   </style>
 </head>
+
 <body>
+
   <main class="container">
-    <img class="logo"
+
+    <img
+      class="logo"
       src="https://raw.githubusercontent.com/rahem1212112121/token-logo/main/logo.svg"
-      alt="Token logo">
+      alt="Token logo"
+    >
 
     <h1>Tether USD</h1>
+
     <div class="symbol">USDT</div>
 
     <p>
@@ -90,17 +131,34 @@
     </div>
 
     <div class="item">
-      <a href="https://bscscan.com/token/0x55d4594f97b64A84722999CA01378e71D47bA795">
+      <a href="https://bscscan.com/token/0x55d4594f97b64A84722999CA01378e71D47bA795"
+         target="_blank"
+         rel="noopener noreferrer">
         View Contract on BscScan
+      </a>
+    </div>
+
+    <div class="item">
+      <div class="label">Project Contact Email</div>
+      <a href="mailto:farden.azha61@gmail.com">
+        farden.azha61@gmail.com
       </a>
     </div>
 
     <div class="notice">
       This page provides technical information about the token
-      contract identified above. It is not an official Tether
-      Limited website and does not establish that this token is
-      issued, backed, or redeemable by Tether Limited.
+      contract identified above.
+
+      It is not an official Tether Limited website and does not
+      establish that this token is issued, backed, or redeemable
+      by Tether Limited.
     </div>
+
+    <footer>
+      Project Information Page
+    </footer>
+
   </main>
+
 </body>
 </html>
